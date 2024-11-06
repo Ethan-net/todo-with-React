@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.formcase{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.form{
+    background-color: white;
+    padding: 2vh 5vw;
+    box-shadow: 1px 1px 20px #dadada;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.title{
+    text-align: center;
+    margin: 20px;
+}
+.forminput{
+    width: 500px;
+    height: 10vh;
+    border: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.forminput:focus{
+    outline: none;
+}
+.submitBut{
+    padding: 2vw;
+    border: none;
+    display: inline-block;
+    color: white;
+    background-color: #ceb916;
+    border-radius: 5px;
+}
+.todolist{
+    background-color: #ceb916;
+    margin-top: 5vh;
+    padding: 2vh 3vw;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
